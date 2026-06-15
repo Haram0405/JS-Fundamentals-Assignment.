@@ -1,8 +1,13 @@
-// Question: Definition Of Function:
+//  **...Question...**
 
-//A function is a reusable block of code designed to perform a specific task.
+// Write a function typeAnalyser(value) that accepts any value and returns a detailed report.
+
+//  **...Solution...**
 
 
+// ==========================================
+// Definition Of Function:
+// ==========================================
 function typeAnalyser(value) {
     return {
         input: value,
