@@ -37,8 +37,8 @@ function calculateDiscount(price, userType, isMember) {
 }
 
 // Required Test Cases
-console.log(calculateDiscount(1200, 'user', false)); //Output: 960.00
-console.log(calculateDiscount(1200, 'user', true)); //Output: 912.00
-console.log(calculateDiscount(600, 'admin', true)); //Output: 285.00
+console.log(calculateDiscount(1200, 'user', false)); //Output: 960
+console.log(calculateDiscount(1200, 'user', true)); //Output: 912
+console.log(calculateDiscount(600, 'admin', true)); //Output: 285
 console.log(calculateDiscount(-50, 'user', false)); //Output: 'Invalid price'
 console.log(calculateDiscount('abc', 'user', false)); //Output: 'Invalid price'
