@@ -34,3 +34,16 @@
 ---
 
 # Section C
+
+## c1.js
+<img width="1246" height="459" alt="image" src="https://github.com/user-attachments/assets/6082fa61-e77a-444a-bd92-8b50c002698b" />
+<img width="725" height="361" alt="image" src="https://github.com/user-attachments/assets/6ccfcccc-9a82-4675-94b8-0a8594ebecc7" />
+<img width="481" height="363" alt="image" src="https://github.com/user-attachments/assets/6cc61732-0d14-45c4-98a9-d2062ed55d9a" />
+<img width="620" height="480" alt="image" src="https://github.com/user-attachments/assets/2ae0855d-c0ec-4e57-8272-6f1ad883251b" />
+<img width="620" height="408" alt="image" src="https://github.com/user-attachments/assets/eed96a3f-84d2-4c35-a4a7-c0c168fe7256" />
+<img width="701" height="429" alt="image" src="https://github.com/user-attachments/assets/a6b8c2f9-2a36-4b47-92bd-9e46ee905d85" />
+<img width="699" height="468" alt="image" src="https://github.com/user-attachments/assets/17b8a102-3fb1-4051-b107-6707684d78f0" />
+<img width="711" height="272" alt="image" src="https://github.com/user-attachments/assets/e92fa637-798e-43f8-9484-f46001760f92" />
+
+## c2.js
+
