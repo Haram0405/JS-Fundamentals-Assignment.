@@ -1,4 +1,9 @@
 
+//  **...Question...**
+
+//Build a pure function library — functions that never mutate inputs.
+
+//  **...Solution...**
 
 
 // =================================================================
