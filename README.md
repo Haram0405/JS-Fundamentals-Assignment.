@@ -70,7 +70,7 @@ Even though JavaScript is single-threaded, it handles async operations like `set
 | **Callback Queue** (Task Queue) | Holds completed async callbacks waiting to be executed |
 | **Event Loop** | Continuously checks if Call Stack is empty, then moves callbacks from Queue to Stack |
 
-**How it works:**
+**--> How it works:**
 1. `setTimeout()` is called → goes to **Web APIs** (runs outside JS engine)
 2. Timer completes → callback placed in **Callback Queue**
 3. **Event Loop** checks if **Call Stack** is empty (no running code)
@@ -105,7 +105,8 @@ This is a **famous JavaScript bug** from the language's earliest versions.
 typeof null === 'object'  // true - BUG!
 ```
 
-**--> Why it happens:** In the original JavaScript implementation, `null` was represented as a null pointer, and `typeof` checked the memory tag. The null pointer had the same tag as objects, so it returned `'object'`. This bug was never fixed because it would break too much existing code.
+**--> Why it happens:** <br>
+In the original JavaScript implementation, `null` was represented as a null pointer, and `typeof` checked the memory tag. The null pointer had the same tag as objects, so it returned `'object'`. This bug was never fixed because it would break too much existing code.
 
 **Correct behavior:** `null` should return `'null'`, but it doesn't.
 
@@ -235,7 +236,8 @@ console.log(person2.age);  // 30 - person2 is affected!
 console.log(person1 === person2);  // true - same object
 ```
 
-**--> Why:** Both `person1` and `person2` point to the same object in heap memory. When you mutate `person1.age`, you're modifying the shared object.
+**--> Why:** <br>
+Both `person1` and `person2` point to the same object in heap memory. When you mutate `person1.age`, you're modifying the shared object.
 
 ***
 
@@ -294,7 +296,8 @@ reassignObject(person);
 console.log("Outside name:", person.name);  // Outside: Alice - unchanged!
 ```
 
-**--> Why:** The function got a copy of the reference. When you reassign `obj`, you're only changing the local copy, not the original `person` variable.
+**--> Why:**<br>
+The function got a copy of the reference. When you reassign `obj`, you're only changing the local copy, not the original `person` variable.
 
 ### v- But Mutating obj.property DOES Affect Original
 
