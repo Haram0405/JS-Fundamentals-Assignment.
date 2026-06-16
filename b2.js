@@ -1,13 +1,9 @@
-//  **...Question...**
 
-// Write a function typeAnalyser(value) that accepts any value and returns a detailed report.
+// Question: Definition Of Function:
 
-//  **...Solution...**
+//A function is a reusable block of code designed to perform a specific task.
 
 
-// ==========================================
-// Definition Of Function:
-// ==========================================
 function typeAnalyser(value) {
     return {
         input: value,
@@ -19,7 +15,9 @@ function typeAnalyser(value) {
         toString: String(value)
     };
 }
-
+console.log("==================================================");
+console.log("      DATA TYPE DIAGNOSTIC MATRIX RUNTIME         ");
+console.log("==================================================\n");
 // ==========================================
 // ALL 8 REQUIRED TEST CALLS WITH CONSOLE.LOG
 // ==========================================
@@ -47,3 +45,7 @@ console.log(typeAnalyser(0));
 
 // Test Case 8: Empty String
 console.log(typeAnalyser(''));
+
+console.log("==================================================");
+console.log("          TYPE MATRIX RUNTIME COMPLETE            ");
+console.log("==================================================");
